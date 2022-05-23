@@ -1,0 +1,85 @@
+/* Color  */
+:root {
+  --main-font-black: #000000;
+  --main-font-red: #ff0000;
+}
+
+
+.App {
+  text-align: center;
+}
+
+/* Basic */
+body::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar but keep functionality */
+}
+body {
+  margin: 60px;
+  
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: var(--main-font-black)
+}
+
+a:hover {
+  color: var(--main-font-red)
+}
+
+/* Navigator */
+nav {
+  text-align: center;
+}
+
+.creator {
+  margin: 20px;
+  text-align: center;
+}
+
+.creator__info {
+  width: 100px;
+  padding: 10px 5px 10px 5px;
+  transition-duration: 800ms;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.creator__info:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Motorola */
+.motorola {
+  margin: 100px auto 0px auto;
+  padding: 4px 33px;
+  border-radius: 10px;
+  width: 500px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+
+}
+
+.pre .post {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.qna textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.qna h3 {
+  margin-bottom: 10px;
+}
+
+.copytoclipboard {
+  padding: 7px;
+  margin: 10px auto;
+}
